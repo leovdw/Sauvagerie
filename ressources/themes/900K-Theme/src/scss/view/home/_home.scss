@@ -1,0 +1,13 @@
+.WIP{
+  width: 100%;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  img{
+    width: 200px;
+    margin: 0 auto;
+  }
+}
