@@ -1,11 +1,25 @@
 .footer{
   background: linear-gradient( 90deg, rgb(16,16,16) 0%, rgb(35,31,32) 100%);
+  padding-left: calc((100% - 75em) / 2);
+  padding-right: calc((100% - 75em) / 2);
+  display: flex;
+  justify-content: space-evenly;
+
+  @include breakpoint(medium, down){
+    padding-left: 10px;
+    flex-direction: column;
+    padding-right: 10px;
+   }
 
   &--logo{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 60px;
+
+
+    @include breakpoint(medium, down){
+      padding-top: 60px;
+    }
 
     img{
       max-width: 100px;

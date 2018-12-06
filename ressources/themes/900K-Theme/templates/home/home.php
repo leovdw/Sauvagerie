@@ -25,8 +25,10 @@
   </div>
   <div class="home--socials">
     <h3>Rejoins-nous !</h3>
-    <input type="text" name="" placeholder="Votre adresse e-mail">
-    <a href="#" class="home--socials--sub">Souscrire</a>
+    <div class="home--socials--newsletter">
+      <input type="text" name="" placeholder="Votre adresse e-mail">
+      <a href="#" class="home--socials--newsletter--sub mdc-button mdc-button--raised mdc-ripple-upgraded">Souscrire</a>
+    </div>
     <h4>Partager</h4>
     <div class="home--socials--icons">
       <a href="#"><img src="<?= IMAGES_URL ?>/facebook.png" alt="facebook_icon"> </a>
