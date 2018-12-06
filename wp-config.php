@@ -92,7 +92,11 @@ $folder_content = 'ressources';
 
 $folder_serveur = getenv('WP_PATH');
 
-$prod = getenv('IS_PROD');
+if (getenv('IS_PROD') == 'false') {
+	$prod = false;
+}elseif (getenv('IS_PROD') == 'true') {
+	$prod = true;
+}
 
 define( 'WP_CONTENT_DIR',         dirname(__FILE__) . '/' . $folder_content );
 define( 'WP_CONTENT_URL',         'http://' . $_SERVER['HTTP_HOST'] . $folder_serveur . '/' . $folder_content );

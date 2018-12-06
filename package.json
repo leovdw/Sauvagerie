@@ -33,6 +33,7 @@
   "dependencies": {
     "@babel/core": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
+    "@material/button": "^0.40.0",
     "babelify": "^10.0.0",
     "npm-upgrade": "^1.4.1",
     "register": "0.0.0"
