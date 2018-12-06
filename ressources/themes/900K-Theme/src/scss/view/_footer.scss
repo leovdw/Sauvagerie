@@ -89,7 +89,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
+  align-items: center;
+  
   & .mdc-button{
     background-color: $main-color;
     color: white;
