@@ -38,3 +38,8 @@ add_filter('script_loader_tag', 'add_defer_attribute', 10, 2);
 if( function_exists('acf_add_options_page') ) {
 	acf_add_options_page('Options');
 }
+add_action( 'after_setup_theme', 'menu_aavi' );
+function menu_aavi() {
+  register_nav_menu( 'header', 'Menu Header' );
+  register_nav_menu( 'footer', 'Menu Footer' );
+}
