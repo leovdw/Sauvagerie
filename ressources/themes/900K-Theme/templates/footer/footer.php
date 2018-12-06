@@ -2,6 +2,10 @@
   $args = array(
       'theme_location' => 'footer', // nom du slug
   );
+
+  $facebook    = get_field('facebook', 'option');
+  $twitter     = get_field('twitter', 'option');
+  $in          = get_field('in', 'option');
 ?>
 <div class="footer">
     <div class="footer--logo">
@@ -11,11 +15,11 @@
     <div class="footer--socials">
       <h4>Nous suivre</h4>
       <div class="footer--socials--icons">
-        <a href="#"><img src="<?= IMAGES_URL ?>/facebook.png" alt="facebook_icon"> </a>
-        <a href="#"><img src="<?= IMAGES_URL ?>/twiter.png" alt="twiter"> </a>
-        <a href="#"><img src="<?= IMAGES_URL ?>/in.png" alt="in"> </a>
+        <a href="<?= $facebook; ?>"><img src="<?= IMAGES_URL ?>/facebook.png" alt="facebook_icon"> </a>
+        <a href="<?= $twitter; ?>"><img src="<?= IMAGES_URL ?>/twiter.png" alt="twiter"> </a>
+        <a href="<?= $in; ?>"><img src="<?= IMAGES_URL ?>/in.png" alt="in"> </a>
       </div>
-      <a href="#">Contactez-nous</a>
+      <a href="mailto:sauvagerieagency@gmail.com">Contactez-nous</a>
     </div>
 
 </div>

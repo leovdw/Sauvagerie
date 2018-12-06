@@ -1,6 +1,12 @@
 <!-- <div class="WIP">
   <img src="<?//= IMAGES_URL; ?>/logo_blanc.png" alt="Logo_aavi">
 </div> -->
+
+<?php
+  $facebook    = get_field('facebook', 'option');
+  $twitter     = get_field('twitter', 'option');
+  $in          = get_field('in', 'option');
+ ?>
 <div class="home">
   <div class="home__head">
     <div class="home--logo">
@@ -31,9 +37,9 @@
     </div>
     <h4>Partager</h4>
     <div class="home--socials--icons">
-      <a href="#"><img src="<?= IMAGES_URL ?>/facebook.png" alt="facebook_icon"> </a>
-      <a href="#"><img src="<?= IMAGES_URL ?>/twiter.png" alt="twiter"> </a>
-      <a href="#"><img src="<?= IMAGES_URL ?>/in.png" alt="in"> </a>
+      <a href="<?= $facebook; ?>"><img src="<?= IMAGES_URL ?>/facebook.png" alt="facebook_icon"> </a>
+      <a href="<?= $twitter; ?>"><img src="<?= IMAGES_URL ?>/twiter.png" alt="twiter"> </a>
+      <a href="<?= $in; ?>"><img src="<?= IMAGES_URL ?>/in.png" alt="in"> </a>
     </div>
   </div>
 </div>
