@@ -45,10 +45,5 @@ module.exports = function (gulp, callback) {
             suffix: '.min'
         }))
         .pipe(cleanCSS())
-        .pipe(gulp.dest(path + '/dist/styles/'))
-        .pipe(notify({
-            title: 'Gulp styles',
-            subtitle: "Let's Rock",
-            message: 'Sass task'
-        }));
+        .pipe(gulp.dest(path + '/dist/styles/'));
 };

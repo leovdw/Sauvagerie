@@ -46,10 +46,5 @@ module.exports = function (gulp, callback) {
         .pipe(rename({suffix: '.min'}))
         .pipe(uglify())
         .pipe(gulp.dest(path + '/dist/scripts/'))
-    	.pipe(notify({
-    		title: 'Gulp Scripts',
-    		subtitle: 'Fuck Yeah !',
-    		message: 'JS task'
-    	}));
 
 };

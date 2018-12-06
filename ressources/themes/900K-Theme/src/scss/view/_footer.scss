@@ -72,8 +72,14 @@
 
 
 .cookie-notice-container{
-  & .button{
-    background-color: white;
-    color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  & .mdc-button{
+    background-color: $main-color;
+    color: white;
+    justify-content: center;
+    display: flex;
   }
 }

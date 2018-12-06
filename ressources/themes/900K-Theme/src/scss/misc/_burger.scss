@@ -11,6 +11,7 @@
   right: 30px;
   top: 30px;
   transform: translateY(-50%);
+  z-index: 99;
 }
 
 .burger-click-region {
@@ -33,12 +34,18 @@
   transition: opacity 200ms ease-out, transform 200ms cubic-bezier(.34, .55, .25, .83);
   transform: translate3d(-100%, 0, 0);
   opacity : 0;
+  z-index: 99;
 
    &.is-open {
     opacity: 1;
     transform: translate3d(0, 0, 0);
   }
-
+  & .menu-header-container + a{
+    text-decoration: none;
+  }
+  & .mdc-button{
+    background-color: $main-color;
+  }
   & .menu,
   & .menu-header-container{
     display: block !important;

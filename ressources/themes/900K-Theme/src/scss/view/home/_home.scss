@@ -137,9 +137,15 @@
     &--icons{
       display: flex;
       flex-direction: column;
-      max-width: 200px;
+      max-width: 500px;
       align-self: center;
       margin-bottom: 100px;
+      justify-content: space-between;
+
+      @include breakpoint(medium, down){
+        flex-direction: column;
+        max-width: 200px;
+       }
 
       a{
         padding: 10px 100px;
