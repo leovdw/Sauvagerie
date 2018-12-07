@@ -26,3 +26,20 @@
     @warn 'Invalid breakpoint: #{$breakpoint}.';
   }
 }
+
+@function setUnit( $value ){
+    @return if( unitless( $value ), $value * 1px, $value );
+}
+
+@function getEmValue( $value ){
+    @return setUnit( $value ) / 16px;
+}
+
+@function px-to-em( $value ){
+    @return getEmValue( $value ) * 1em;
+}
+
+@mixin font-size($size) {
+    font-size: $size;
+    font-size: px-to-em($size);
+}

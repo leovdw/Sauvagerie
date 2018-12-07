@@ -6,12 +6,17 @@
   width: 40px;
   height: 30px;
   cursor: pointer;
-  display: block;
-  position: absolute;
+  display: none;
+  position: fixed;
   right: 30px;
   top: 30px;
   transform: translateY(-50%);
   z-index: 99;
+
+  @include breakpoint(medium, down){
+      display: block;
+  }
+
 }
 
 .burger-click-region {

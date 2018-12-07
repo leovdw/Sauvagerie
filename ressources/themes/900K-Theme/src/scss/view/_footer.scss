@@ -1,5 +1,5 @@
 .footer{
-  background: linear-gradient( 90deg, rgb(16,16,16) 0%, rgb(35,31,32) 100%);
+  background: linear-gradient( 45deg, rgb(16,16,16) 0%, rgb(35,31,32) 100%);
   padding-left: calc((100% - 75em) / 2);
   padding-right: calc((100% - 75em) / 2);
   display: flex;
@@ -90,7 +90,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  
+
   & .mdc-button{
     background-color: $main-color;
     color: white;

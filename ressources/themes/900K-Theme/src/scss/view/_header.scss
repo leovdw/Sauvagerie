@@ -1,0 +1,51 @@
+.main-menu__dstp{
+  position: fixed;
+  top: 32px;
+  right: 50%;
+  transform: translateX(50%);
+  width: 100%;
+  max-width: 75em;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+
+
+  &--logo{
+    align-self: center;
+    height: 38px;
+
+    img{
+      max-width: 50px;
+    }
+  }
+
+
+  & .menu-header-container{
+    & .menu{
+      display: flex;
+      width: 100%;
+      justify-content: flex-end;
+    }
+
+    li{
+      padding: 15px 25px;
+
+      &.current-menu-item{
+        a{
+          color: $main-color;
+        }
+      }
+
+      a{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+
+
+  @include breakpoint(medium, down){
+    display: none;
+   }
+}

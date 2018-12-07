@@ -5,6 +5,13 @@
 ?>
 
 <div class="main-menu">
+  <div class="main-menu__dstp">
+    <div class="main-menu__dstp--logo">
+      <img src="<?= IMAGES_URL; ?>/logo_blanc.png" alt="Logo_aavi">
+    </div>
+
+    <?php wp_nav_menu($args); ?>
+  </div>
   <div class="burger-menu">
     <div class="burger-click-region">
       <span class="burger-menu-piece"></span>
