@@ -18,8 +18,8 @@ module.exports = function() {
     breakpoint: 968,
     settings: {
       centerPadding: '0',
+      }
     }
-  }
   ]
   })
 }
