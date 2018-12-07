@@ -3,11 +3,13 @@
   top: 32px;
   right: 50%;
   transform: translateX(50%);
-  width: 100%;
-  max-width: 75em;
+  width: calc(100% - 20em);
+  padding-right: 10em;
+  padding-left: 10em;
   z-index: 1;
   display: flex;
   justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.8);
 
 
   &--logo{

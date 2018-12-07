@@ -5,9 +5,9 @@
 
  @import "partials/core";
 
+ @import 'misc/mixins';
  @import 'misc/variables';
  @import 'misc/general';
- @import 'misc/mixins';
  @import 'misc/burger';
 
  @import 'view/home/home';

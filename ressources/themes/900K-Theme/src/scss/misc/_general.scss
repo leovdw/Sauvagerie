@@ -1,6 +1,15 @@
 body{
   margin: 0;
   font-family: $main-font;
+  // font-size: 62.5%;
+  // font-size: 1.5em;
+  font-size: 100%;
+  @media (min-width: 1500px) {
+    font-size: 125%;
+  }
+  @media (min-width: 2000px) {
+    font-size: 155%;
+  }
 }
 ul{
   margin: 0;

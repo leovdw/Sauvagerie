@@ -10,19 +10,39 @@
     justify-content: center;
     flex-wrap: wrap;
 
+    @include breakpoint(medium, down){
+      width: 100%;
+    }
+
+    @include breakpoint(small, down){
+      flex-direction: column;
+    }
+
     a{
       margin-top: 40px;
       text-decoration: none;
+
+      @include breakpoint(small, down){
+        align-self : center;
+      }
 
       & .mdc-button{
         background-color: white;
         text-decoration: none;
         color: $main-color;
         padding: 10px 70px;
+
+        @include breakpoint(medium, down){
+          padding: 10px 50px;
+        }
       }
 
       &:nth-child(3){
         margin-left: 40px;
+
+        @include breakpoint(small, down){
+          margin-left: 0px;
+        }
 
         & .mdc-button{
           background-color: $main-color;
@@ -36,24 +56,35 @@
       display: flex;
       justify-content: space-between;
       max-width: 75em;
+      width: 90%;
       margin: 0 auto;
       margin-top: 40px;
+
+      @include breakpoint(medium, down){
+        flex-direction: column;
+      }
     }
 
     &--content{
       width: 38%;
+      @include breakpoint(medium, down){
+        width: 100%;
+      }
 
       h1{
         color: white;
-        text-align: center;
         margin-bottom: 50px;
         text-transform: uppercase;
         @include font-size($h1);
+
+        @include breakpoint(medium, down){
+          text-align: center;
+        }
       }
       p{
         color: white;
         align-self: center;
-        @include font-size($p);
+        @include font-size($h3);
         margin-top: 20px;
       }
     }
@@ -64,7 +95,7 @@
       background-size: cover;
       padding-bottom: 100px;
       position: relative;
-      margin-bottom: 80px;
+      // margin-bottom: 80px;
       padding-top: 50px;
 
       &::after{
@@ -84,25 +115,40 @@
 
     iframe{
       margin: 0 auto;
-      max-width: 550px;
       width: 100%;
+      height: 25em;
       margin-top: 40px;
     }
   }
 
   &__asso{
     display: flex;
-    justify-content: space-around;
-    max-width: 75em;
+    justify-content: space-between;
     width: 100%;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+
+    @include breakpoint(medium, down){
+      flex-direction: column;
+    }
 
     &--content{
-      width: 40%;
+      width: auto;
       display: flex;
+      justify-content: center;
       flex-direction: column;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      padding-left: calc((100% - 75em) / 2);
+
+      @media (max-width: 75em) {
+        padding-left: 5%;
+      }
+      @include breakpoint(medium, down){
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+      // padding-left: 5%;
 
       a{
         align-self: center;
@@ -114,6 +160,11 @@
           text-decoration: none;
           color: white;
           padding: 10px 70px;
+
+          @include breakpoint(medium, down){
+           padding: 0 15px;
+
+          }
         }
       }
     }
@@ -121,26 +172,50 @@
       width: 40%;
       background-position: center;
       background-size: cover;
-      height: 350px;
+      height: 450px;
+
+      @include breakpoint(medium, down){
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 40px;
+      }
     }
   }
 
   &__campain{
     background-color: $main-color;
 
+    &--wraper{
+      max-width: 75em;
+      width: 90%;
+      margin: 0 auto;
+
+      @include breakpoint(large, down){
+        width: 90%;
+        margin: 0 auto;
+       }
+    }
     h2{
       text-align: center;
       @include font-size($h2);
       color: white;
+      margin-top: 3em;
+      margin-bottom: 2em;
     }
 
     p{
-
+      text-align: center;
+      color: white;
+      @include font-size($p);
+      margin-bottom: 2em;
     }
 
     &__vds{
       display: flex !important;
       justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 40px;
 
       &:focus{
         outline: none;
@@ -154,6 +229,22 @@
         transition: 0.5s ease all;
         width: 80%;
         transform: scale(0.90);
+
+        @include breakpoint(medium, down){
+         width: 100%;
+        }
+      }
+
+      a{
+        margin-top: 4em;
+        text-decoration: none;
+
+        & .mdc-button{
+          background-color:white;
+          text-decoration: none;
+          color: $main-color;
+          padding: 10px 70px;
+        }
       }
 
       &--wraper{
@@ -171,14 +262,31 @@
           transform: translateY(-50%) rotate(45deg);
           cursor: pointer;
           z-index: 1;
+
         }
 
         & .arrow__next{
           transform: translateY(-50%) rotate(-135deg);
           right: 10%;
+          @include breakpoint(large, down){
+           right: 5%;
+          }
+          @include breakpoint(medium, down){
+           right: 2%;
+           transform: translateY(0%) rotate(-135deg);
+           top: calc(100% - 90px);
+          }
         }
         & .arrow__prev{
           left: 10%;
+          @include breakpoint(large, down){
+           left: 5%;
+          }
+          @include breakpoint(medium, down){
+           left: 2%;
+           top: calc(100% - 90px);
+           transform: translateY(0%) rotate(45deg);
+          }
         }
       }
     }
