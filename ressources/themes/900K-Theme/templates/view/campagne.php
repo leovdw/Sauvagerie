@@ -35,8 +35,8 @@
   </div>
 
   <div class="conceptions__action">
-    <div class="ation">
-      <h3>Comment passer à l’acte à votre échelle?</h3>
+    <div class="conceptions__action--img" style="background-image : url('<?= IMAGES_URL; ?>/action.png')"></div>
+    <div class="conceptions__action--content">
       <p>Vous pouvez dès à présent avoir un impact sur votre entreprise en réservant un atelier d’accompagnement pour sensibiliser vos employés sur le sujet du handicap.</p>
       <a href="#">
         <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
