@@ -29,7 +29,7 @@
       <div class="asso__strat__boxes">
         <h4>INFORMER</h4>
         <p>
-           Vous renseigner  par l’intermédiaire de notre site internet sur le sujet du handicap au travail et vous sensibiliser à la mise en place d’un travail introspectif afin de mettre fins
+           Vous renseigner  par l’intermédiaire de notre site internet sur le sujet du handicap au travail et vous sensibiliser à la mise en place d’un travail introspectif afin de mettre fin aux sidées reçues
         </p>
       </div>
       <div class="asso__strat__boxes">
