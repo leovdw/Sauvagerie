@@ -3,14 +3,14 @@
     <h1>Vous êtes victimes de vos <span>préjugés<span></h1>
     <p>Ne culpabilisez pas, vous êtes juste victime d’un processus
       inconscient de votre cerveau qui vous donne une vision
-      biaisé de la réalité.
+      biaisée de la réalité.
     </p>
   </div>
 
   <div class="conceptions__brain">
     <div class="conceptions__brain--img" style="background-image : url('<?= IMAGES_URL; ?>/brain-and-head.png')"></div>
     <div class="conceptions__brain--content">
-      <p>Notre cerveau a besoin de résumer les informations qui lui parviennent de façon simple pour aller bien. Ces informations sont principalement transmises par la culture et notre l’éducation. Voilà pourquoi nous ne sommes capable de voir le handicap qu'à travers le prisme de notre réalité et donc de nos stéréotypes.</p>
+      <p>Notre cerveau a besoin de résumer les informations qui lui parviennent de façon simple pour aller bien. Ces informations sont principalement transmises par la culture et notre éducation. Voilà pourquoi nous ne sommes capables de voir le handicap qu'à travers le prisme de notre réalité et donc de nos stéréotypes.</p>
     </div>
   </div>
 
@@ -23,7 +23,7 @@
     </div>
   </div>
   <div class="conceptions--content">
-    <p>Bon, vous avez pris conscience que nous avions tous des stéréotypes existants envers les personnes en situation de handicap et vous savez à présent qu’ils sont dû à un processus inconscient. </p>
+    <p>Bon, vous avez pris conscience que nous avions tous des stéréotypes existants envers les personnes en situation de handicap et vous savez à présent qu’ils sont dus à un processus inconscient. </p>
   </div>
 
   <div class="conceptions__solutions">
@@ -48,7 +48,7 @@
 
   <h2>
     Vous désirez en savoir plus sur le handicap au travail ?
-    Ces articles peuvent vous intéresser
+    Ces articles peuvent vous intéresser.
   </h2>
   <div class="conceptions__articles--wraper">
     <div class="conceptions__articles">
@@ -64,7 +64,7 @@ entreprise et faites valoir votre RSE grâce à l’embauche d’employés handi
     </div>
     <div class="conceptions__articles">
       <div class="conceptions__articles--content">
-        <p>Pôle Emploi et Cap emploi mettent en lien handicapés et entreprises </p>
+        <p>Pôle Emploi et Cap emploi mettent en lien handicapé et entreprise </p>
       </div>
       <a href="#">
         <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
@@ -85,7 +85,7 @@ financièrement</p>
     </div>
     <div class="conceptions__articles">
       <div class="conceptions__articles--content">
-        <p>Pinson Paysage, cette entreprise qui a réussit grâce à l’embauche de travailleurs handicapés </p>
+        <p>Pinson Paysage, cette entreprise qui a réussi grâce à l’embauche de travailleurs handicapés </p>
       </div>
       <a href="#">
         <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
