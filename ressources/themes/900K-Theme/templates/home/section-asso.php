@@ -16,7 +16,7 @@ $home_asso        = get_field('home_asso');
     </a>
   </div>
 
-  <div class="home__asso--image" style="background-image: url(<?= $asso_img; ?>)">
+  <div class="home__asso--image" style="background-image: url('<?= IMAGES_URL ?>/text_numbers.png')">
 
   </div>
 </div>
