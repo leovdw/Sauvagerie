@@ -97,9 +97,10 @@
 
   &__vdo{
     max-width: 75em;
-    margin: 4em auto;
+    padding: 4em calc(100% - 75em);;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, 0.08);
 
     @include breakpoint(all, down){
       max-width: 95%;
