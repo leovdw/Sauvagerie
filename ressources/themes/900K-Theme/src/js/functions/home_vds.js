@@ -25,11 +25,15 @@ module.exports = function() {
 
 $('.conceptions__articles--wraper').slick({
   infinite: true,
+  dots: true,
   centerMode: true,
   centerPadding: '150px',
   slidesToShow: 1,
   prevArrow : '<div class="arrows arrow__prev"></div>',
   nextArrow : '<div class="arrows arrow__next"></div>',
+  autoplay: true,
+  speed: 800,
+  autoplaySpeed: 2000,
   responsive : [
     {
     breakpoint: 1200,
