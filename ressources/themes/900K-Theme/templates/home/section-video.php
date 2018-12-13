@@ -27,6 +27,11 @@ $home_btn_second  = get_field('home_btn_second');
           <?= $home_btn_second['btn_txt']; ?>
         </button>
       </a>
+      <a href="<?= $home_btn_second['url']; ?>">
+        <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
+          Nos sources
+        </button>
+      </a>
     </div>
   </div>
   <div class="home__video--arrow"></div>
