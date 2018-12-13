@@ -143,11 +143,6 @@
       margin-top: 40px;
       margin-bottom: 40px;
       padding-left: calc((100% - 75em) / 2);
-
-      @media (max-width: 75em) {
-        padding-left: 5%;
-        padding-right: 2em;
-      }
       @include breakpoint(medium, down){
         width: 90%;
         margin: 0 auto;
@@ -182,9 +177,10 @@
 
 
       @include breakpoint(medium, down){
-        width: 90%;
+        box-shadow: 0px -17px 27px 0px rgba(0, 0, 0, 0.07);
+        width: 100%;
         margin: 0 auto;
-        margin-bottom: 40px;
+        margin-bottom: 0px;
       }
     }
   }
