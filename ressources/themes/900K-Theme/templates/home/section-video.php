@@ -27,7 +27,7 @@ $home_btn_second  = get_field('home_btn_second');
           <?= $home_btn_second['btn_txt']; ?>
         </button>
       </a>
-      <a href="<?= $home_btn_second['url']; ?>">
+      <a href="<?= esc_url( get_permalink( get_page_by_title( 'Nos sources' ) ) ); ?>">
         <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
           Nos sources
         </button>

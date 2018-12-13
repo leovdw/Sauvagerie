@@ -6,9 +6,9 @@ $in               = get_field('in', 'option');
 
  ?>
 <div class="home">
-  <a href="#" target="_blank" class="vdo_exit">
+  <a href="#" class="vdo_exit">
     <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
-      Découvrir le site
+      Découvrir notre site
     </button>
   </a>
 

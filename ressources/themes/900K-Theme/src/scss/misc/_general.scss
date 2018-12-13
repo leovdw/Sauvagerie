@@ -21,3 +21,21 @@ ul{
     margin: 0;
   }
 }
+
+.simple-post{
+  @include font-size($p);
+  max-width: 75em;
+  margin: 0 auto;
+
+  & h2{
+    text-align: center;
+    margin-top: 5em;
+    color: $main-color;
+    @include font-size($h2);
+    margin-bottom: 2em;
+  }
+
+  &--thecontent{
+    @include font-size($p);
+  }
+}

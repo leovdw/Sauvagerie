@@ -68,7 +68,7 @@ module.exports = function() {
 
       setTimeout(function(){
         close.classList.add('displayed');
-      }, 30000);
+      }, 3000);
 
       close.addEventListener("click", function(e){
         e.preventDefault();

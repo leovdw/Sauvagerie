@@ -11,7 +11,7 @@ biaisée de la réalité.
     <div class="conceptions__brain--img" style="background-image : url('<?= IMAGES_URL; ?>/brain-and-head.png')"></div>
     <div class="conceptions__brain--content">
       <p>Notre cerveau a besoin de résumer les informations qui lui parviennent de façon simple pour aller bien. Ces informations sont principalement transmises par la culture et notre l’éducation.
-Voilà pourquoi nous ne sommes capables de voir le handicap seulement à travers le prisme de notre réalité et donc de nos stéréotypes.</p>
+Voilà pourquoi nous ne sommes capables de voir le handicap qu'à travers le prisme de notre réalité et donc de nos stéréotypes.</p>
     </div>
   </div>
 
@@ -32,7 +32,12 @@ Patrick Scharnitzk, docteur et manager chargé d'accompagner les entreprises sur
     <div class="conceptions__solutions--content">
       <h3>Que faire alors pour y remédier ? </h3>
       <p>On ne se débarrasse pas de ces stéréotypes. <br>
-La société le fait à l’échelle d’une génération, deux, trois, quatre… On met cinquante ans au moins, pour faire bouger un stéréotype. Cinquante ans c’est trop long à l’échelle d’une carrière. Par contre, on peut essayer de faire le travail d’accepter, avec beaucoup d’humilité. Avec un travail sur soi-même, d’arrêter de se taper la tête contre les murs d’une façon moralisatrice, et de travailler sur le passage à l’acte.</p>
+        La société le fait à l’échelle d’une génération, deux, trois, quatre…
+        On met cinquante ans au moins, pour faire bouger un stéréotype.
+        Cinquante ans c’est trop long à l’échelle d’une carrière.
+        Par contre, on peut essayer d’accepter que nous avons des préjugés.
+        Pas la peine de se taper la tête contre les murs d’une façon moralisatrice, et de travailler sur
+        le passage à l’acte.</p>
     </div>
     <div class="conceptions__solutions--img" style="background-image : url('<?= IMAGES_URL; ?>/family.png')"></div>
   </div>
@@ -41,7 +46,9 @@ La société le fait à l’échelle d’une génération, deux, trois, quatre�
     <div class="conceptions__action--img" style="background-image : url('<?= IMAGES_URL; ?>/action.png')"></div>
     <div class="conceptions__action--content">
       <h3>Comment passer à l’acte à votre échelle ?</h3>
-      <p>Vous pouvez dès à présent avoir un impact sur votre entreprise en réservant un atelier d’accompagnement pour sensibiliser vos employés sur le sujet du handicap.</p>
+      <p>Vous pouvez dès à présent avoir un impact sur votre entreprise en réservant un atelier d’accompagnement
+         pour sensibiliser vos employés sur le sujet du handicap.
+       </p>
       <a href="http://sircome.fr/handicap-et-responsabilite-sociale-des-entreprises/" target="_blank">
         <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
           Découvrir nos ateliers
@@ -52,7 +59,7 @@ La société le fait à l’échelle d’une génération, deux, trois, quatre�
 
   <h2>
     Vous désirez en savoir plus sur le handicap au travail ?
-Ces articles peuvent vous intéresser
+    Ces articles peuvent vous intéresser
   </h2>
   <div class="conceptions__articles--wraper">
     <div class="conceptions__articles" style="background-image:url('<?= IMAGES_URL; ?>/art1.png')">

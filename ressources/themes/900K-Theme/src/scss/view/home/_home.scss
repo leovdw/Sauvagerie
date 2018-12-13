@@ -5,7 +5,7 @@
 
   & .vdo_exit{
     position: fixed;
-        z-index: 999999999;
+    z-index: 999999999;
     background-color: $main-color;
     top: 90vh;
     right: 50%;
@@ -31,7 +31,7 @@
     width: 60%;
     align-self: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 
     @include breakpoint(medium, down){
@@ -52,10 +52,10 @@
       }
 
       & .mdc-button{
-        background-color: white;
+        background-color:$main-color ;
         text-decoration: none;
-        color: $main-color;
-        padding: 10px 70px;
+        color: white;
+        padding: 10px 50px;
 
         @include breakpoint(medium, down){
           padding: 10px 50px;
@@ -67,16 +67,14 @@
       }
 
       &:nth-child(3){
-        margin-left: 40px;
-
         @include breakpoint(small, down){
           margin-left: 0px;
         }
 
         & .mdc-button{
-          background-color: $main-color;
+          background-color: white;
           text-decoration: none;
-          color: white;
+          color:$main-color ;
         }
       }
     }
