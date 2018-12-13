@@ -62,8 +62,12 @@ module.exports = function() {
     var home__video = document.querySelector('.home__video iframe');
     var close       = document.querySelector('.vdo_exit');
     var video       = localStorage.getItem('video');
-    console.log(video);
-    if (home__video && (video == null || video == 'seen')) {
+
+    if (video !== 'seen') {
+      home__video.src += '&autoplay=1';
+    }
+
+    if (home__video && (video == null || video !== 'seen')) {
       home__video.classList.add('full');
 
       setTimeout(function(){
