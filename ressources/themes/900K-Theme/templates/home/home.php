@@ -6,7 +6,12 @@ $in               = get_field('in', 'option');
 
  ?>
 <div class="home">
-  <a href="#" class="vdo_exit">x</a>
+  <a href="#" target="_blank" class="vdo_exit">
+    <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
+      Découvrir le site
+    </button>
+  </a>
+
   <?php get_template_part('templates/home/section-video'); ?>
 
   <?php get_template_part('templates/home/section-asso'); ?>

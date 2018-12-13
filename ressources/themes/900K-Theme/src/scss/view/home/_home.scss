@@ -5,12 +5,11 @@
 
   & .vdo_exit{
     position: fixed;
-    z-index: 99999999999;
+        z-index: 999999999;
     background-color: $main-color;
-    top: 4em;
-    right: 4em;
-    width: 2em;
-    height: 2em;
+    top: 90vh;
+    right: 50%;
+    transform: translateX(50%);
     color: white;
     display: flex;
     justify-content: center;
@@ -18,6 +17,10 @@
     text-decoration: none;
     border-radius: 50%;
     display: none;
+
+    & .mdc-button{
+      background-color: $main-color;
+    }
 
     &.displayed{
       display: flex;
@@ -153,7 +156,7 @@
         height: 100vh;
         top: 0;
         right: 0;
-        z-index: 9999;
+        z-index: 99999999;
         margin-top: 0;
         transition: .8s ease all;
 

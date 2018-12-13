@@ -63,16 +63,15 @@ module.exports = function() {
     var close       = document.querySelector('.vdo_exit');
     var video       = localStorage.getItem('video');
     console.log(video);
-    if (home__video && (video == null || video !== 'seen')) {
-
-      home__video.src += "&autoplay=1";
+    if (home__video && (video == null || video == 'seen')) {
       home__video.classList.add('full');
 
       setTimeout(function(){
         close.classList.add('displayed');
       }, 30000);
 
-      close.addEventListener("click", function(){
+      close.addEventListener("click", function(e){
+        e.preventDefault();
         home__video.classList.remove('full');
         close.classList.remove('displayed');
       });
