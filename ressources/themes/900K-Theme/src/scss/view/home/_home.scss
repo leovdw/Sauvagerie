@@ -111,7 +111,7 @@
       p{
         color: white;
         align-self: center;
-        @include font-size($h3);
+        @include font-size($p);
         margin-top: 20px;
       }
     }

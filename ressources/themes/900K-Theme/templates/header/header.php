@@ -7,7 +7,7 @@
 <div class="main-menu">
   <div class="main-menu__dstp">
     <div class="main-menu__dstp--logo">
-      <img src="<?= IMAGES_URL; ?>/aavi_logo.png" alt="Logo_aavi">
+      <img src="<?= IMAGES_URL; ?>/logoAAVItextedroite.png" alt="Logo_aavi">
     </div>
 
     <?php wp_nav_menu($args); ?>

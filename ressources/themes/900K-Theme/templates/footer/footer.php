@@ -19,7 +19,7 @@
         <a href="<?= $twitter; ?>" target="_blank"><img src="<?= IMAGES_URL ?>/twiter.png" alt="twiter"> </a>
         <a href="<?= $in; ?>" target="_blank"><img src="<?= IMAGES_URL ?>/in.png" alt="in"> </a>
       </div>
-      <a href="mailto:sauvagerieagency@gmail.com">Contactez-nous</a>
+      <a href="mailto:association.aavi@gmail.com">Contactez-nous</a>
     </div>
 
 </div>
