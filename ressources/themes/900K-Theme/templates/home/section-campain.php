@@ -21,7 +21,7 @@ $camp_vds         = get_field('camp_vds');
               $btn = get_sub_field('btn_vids');
               ?>
               <div class="home__campain__vds">
-                  <iframe src="https://www.youtube.com/embed/<?= $vds ?>&rel=0" width="350" height="450" frameborder="0" allowfullscreen></iframe>
+                  <iframe src="https://www.youtube.com/embed/<?= $vds ?>?rel=0" width="350" height="450" frameborder="0" allowfullscreen></iframe>
 
                   <a href="<?= $btn['url']; ?>">
                     <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">

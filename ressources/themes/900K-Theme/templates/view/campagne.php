@@ -51,49 +51,57 @@
     Ces articles peuvent vous intéresser.
   </h2>
   <div class="conceptions__articles--wraper">
-    <div class="conceptions__articles">
-      <div class="conceptions__articles--content">
-        <p>Apportez une valeur ajoutée à votre
-entreprise et faites valoir votre RSE grâce à l’embauche d’employés handicapés </p>
+    <div class="conceptions__articles" style="background-image:url('<?= IMAGES_URL; ?>/art1.png')">
+      <div class="conceptions__articles--content--wraper">
+        <div class="conceptions__articles--content">
+          <p>Apportez une valeur ajoutée à votre
+  entreprise et faites valoir votre RSE grâce à l’embauche d’employés handicapés </p>
+        </div>
+        <a href="#">
+          <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
+            En savoir plus
+          </button>
+        </a>
       </div>
-      <a href="#">
-        <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
-          En savoir plus
-        </button>
-      </a>
     </div>
-    <div class="conceptions__articles">
-      <div class="conceptions__articles--content">
-        <p>Pôle Emploi et Cap emploi mettent en lien handicapé et entreprise </p>
+    <div class="conceptions__articles" style="background-image:url('<?= IMAGES_URL; ?>/art2.png')">
+      <div class="conceptions__articles--content--wraper">
+        <div class="conceptions__articles--content">
+          <p>Pôle Emploi et Cap emploi mettent en lien handicapé et entreprise </p>
+        </div>
+        <a href="http://www.pole-emploi.org/accueil/actualites/acteuremploi/une-cooperation-renforcee-entre-pole-emploi-et-les-cap-emploi-pour-mieux-accompagner-les-personnes-en-situation-de-handicap--ver.html?type=article" target="_blank">
+          <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
+            En savoir plus
+          </button>
+        </a>
       </div>
-      <a href="http://www.pole-emploi.org/accueil/actualites/acteuremploi/une-cooperation-renforcee-entre-pole-emploi-et-les-cap-emploi-pour-mieux-accompagner-les-personnes-en-situation-de-handicap--ver.html?type=article" target="_blank">
-        <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
-          En savoir plus
-        </button>
-      </a>
     </div>
-    <div class="conceptions__articles">
-      <div class="conceptions__articles--content">
-        <p>
-          Les acteurs de l’insertion et du maintien dans l’emploi vous accompagnent
-          financièrement
-        </p>
+    <div class="conceptions__articles" style="background-image:url('<?= IMAGES_URL; ?>/art3.png')">
+      <div class="conceptions__articles--content--wraper">
+        <div class="conceptions__articles--content">
+          <p>
+            Les acteurs de l’insertion et du maintien dans l’emploi vous accompagnent
+            financièrement
+          </p>
+        </div>
+        <a href="https://travail-emploi.gouv.fr/ministere/acteurs/partenaires/agefiph" target="_blank">
+          <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
+            En savoir plus
+          </button>
+        </a>
       </div>
-      <a href="https://travail-emploi.gouv.fr/ministere/acteurs/partenaires/agefiph" target="_blank">
-        <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
-          En savoir plus
-        </button>
-      </a>
     </div>
-    <div class="conceptions__articles">
-      <div class="conceptions__articles--content">
-        <p>Pinson Paysage, cette entreprise qui a réussi grâce à l’embauche de travailleurs handicapés </p>
+    <div class="conceptions__articles" style="background-image:url('<?= IMAGES_URL; ?>/art4.png')">
+      <div class="conceptions__articles--content--wraper">
+        <div class="conceptions__articles--content">
+          <p>Pinson Paysage, cette entreprise qui a réussi grâce à l’embauche de travailleurs handicapés </p>
+        </div>
+        <a href="http://www.sestidf.fr/handicap-la-reussite-de-pinson-paysage/" target="_blank">
+          <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
+            En savoir plus
+          </button>
+        </a>
       </div>
-      <a href="http://www.sestidf.fr/handicap-la-reussite-de-pinson-paysage/" target="_blank">
-        <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
-          En savoir plus
-        </button>
-      </a>
     </div>
   </div>
 </div>

@@ -19,7 +19,7 @@
     max-width: 70%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     @include breakpoint(all, down){
@@ -41,7 +41,7 @@
 
     a{
       text-decoration: none;
-      margin-left: auto;
+      margin-left: 2em;
 
       @include breakpoint(all, down){
         width: 100%;
