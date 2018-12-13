@@ -1,5 +1,5 @@
 <div class="asso">
-  <div class="asso--title" style="background-image : url('<?= IMAGES_URL; ?>/asso.jpg')">
+  <div class="asso--title" style="background-image : url('<?= IMAGES_URL; ?>/asso_test.jpg')">
     <div class="">
           <h1>Association</h1>
     </div>
