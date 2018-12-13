@@ -1,0 +1,66 @@
+.newsletter{
+  padding-top: 4em;
+  box-shadow: 0px -17px 27px 0px rgba(0, 0, 0, 0.07);
+  padding-bottom: 5em;
+
+  h4{
+    max-width: 70%;
+    @include font-size($h4);
+    color: $main-color;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1em;
+
+    @include breakpoint(all, down){
+      margin-bottom: 2em;
+    }
+  }
+  &--form{
+    max-width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include breakpoint(all, down){
+      flex-direction: column;
+    }
+
+    input{
+      width: 70%;
+      height: 20px;
+      border: 1px solid $main-color;
+      border-radius: 3px;
+      padding: 10px 20px;
+      @include font-size($p);
+
+      &::placeholder{
+        @include font-size($p);
+      }
+      &:focus{
+        outline: none;
+      }
+      @include breakpoint(all, down){
+        width: calc(100% - 40px);
+        margin-bottom: 2em;
+      }
+    }
+
+    a{
+      text-decoration: none;
+      margin-left: 2em;
+
+      @include breakpoint(all, down){
+        width: 100%;
+      }
+
+      & .mdc-button{
+        background-color: $main-color;
+
+        @include breakpoint(all, down){
+          width: 100%;
+        }
+      }
+    }
+  }
+}

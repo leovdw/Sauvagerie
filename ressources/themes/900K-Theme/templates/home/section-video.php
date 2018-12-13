@@ -16,7 +16,7 @@ $home_btn_second  = get_field('home_btn_second');
     </div>
 
     <div class="home__video">
-      <iframe src="<?= $video_url; ?>" width="350" height="350" frameborder="0"></iframe>
+      <iframe width="350" height="350" src="https://www.youtube-nocookie.com/embed/brfdSvQN3Sc?rel=0&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <a href="<?= $home_btn['url']; ?>">
         <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
           <?= $home_btn['btn_txt']; ?>
@@ -25,6 +25,11 @@ $home_btn_second  = get_field('home_btn_second');
       <a href="<?= $home_btn_second['url']; ?>">
         <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
           <?= $home_btn_second['btn_txt']; ?>
+        </button>
+      </a>
+      <a href="<?= esc_url( get_permalink( get_page_by_title( 'Nos sources' ) ) ); ?>">
+        <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
+          Nos sources
         </button>
       </a>
     </div>

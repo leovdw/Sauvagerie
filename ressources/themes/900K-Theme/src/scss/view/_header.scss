@@ -1,6 +1,6 @@
 .main-menu__dstp{
   position: fixed;
-  top: 32px;
+  top: 0;
   right: 50%;
   transform: translateX(50%);
   width: calc(100% - 20em);
@@ -11,13 +11,12 @@
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.8);
 
-
   &--logo{
     align-self: center;
     height: 38px;
 
     img{
-      max-width: 50px;
+      max-width: 120px;
     }
   }
 
