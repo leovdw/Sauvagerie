@@ -74,8 +74,10 @@ entreprise et faites valoir votre RSE grâce à l’embauche d’employés handi
     </div>
     <div class="conceptions__articles">
       <div class="conceptions__articles--content">
-        <p>Les acteurs de l’insertion et du maintien dans l’emploi vous accompagnent
-financièrement</p>
+        <p>
+          Les acteurs de l’insertion et du maintien dans l’emploi vous accompagnent
+          financièrement
+        </p>
       </div>
       <a href="https://travail-emploi.gouv.fr/ministere/acteurs/partenaires/agefiph" target="_blank">
         <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
