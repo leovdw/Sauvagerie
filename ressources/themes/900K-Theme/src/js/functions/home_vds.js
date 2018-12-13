@@ -70,8 +70,8 @@ module.exports = function() {
 
       setTimeout(function(){
         close.classList.add('displayed');
-      }, 20000);
-      
+      }, 30000);
+
       close.addEventListener("click", function(){
         home__video.classList.remove('full');
         close.classList.remove('displayed');
