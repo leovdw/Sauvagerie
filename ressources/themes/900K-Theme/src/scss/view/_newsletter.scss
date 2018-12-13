@@ -32,7 +32,14 @@
       border: 1px solid $main-color;
       border-radius: 3px;
       padding: 10px 20px;
+      @include font-size($p);
 
+      &::placeholder{
+        @include font-size($p);
+      }
+      &:focus{
+        outline: none;
+      }
       @include breakpoint(all, down){
         width: calc(100% - 40px);
         margin-bottom: 2em;

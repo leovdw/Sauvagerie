@@ -6,7 +6,7 @@ $in               = get_field('in', 'option');
 
  ?>
 <div class="home">
-
+  <a href="#" class="vdo_exit">x</a>
   <?php get_template_part('templates/home/section-video'); ?>
 
   <?php get_template_part('templates/home/section-asso'); ?>

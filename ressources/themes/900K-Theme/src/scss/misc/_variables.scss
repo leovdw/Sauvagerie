@@ -2,12 +2,12 @@ $breakpoints: (
   small: 576px,
   medium: 968px,
   large: 1200px,
-  all: 75em, 
+  all: 75em,
 );
 
-$main-font : 'Roboto', sans-serif;
+$main-font : 'GillSans', sans-serif;
 
-$main-color : #B7192F;
+$main-color : #B7192F; 
 
 $h1: 38px;
 $h2: 26px;
@@ -15,3 +15,8 @@ $h3: 24px;
 $h4: 20px;
 $h5: 18px;
 $p:  16px;
+
+@font-face {
+  font-family:  'GillSans';
+  src:          url('../fonts/GillSans.ttc') format('ttf');
+}

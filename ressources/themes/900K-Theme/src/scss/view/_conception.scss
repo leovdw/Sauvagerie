@@ -1,9 +1,9 @@
 .conceptions{
   &--title{
-    @include font-size($h1);
     text-align: center;
     color: white;
-    padding-top: 4em;
+    padding-bottom: 4em;
+    padding-top: 7em;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,6 +32,7 @@
 
     h1{
       position: relative;
+          @include font-size($h1);
     }
 
     span{
@@ -54,8 +55,8 @@
   }
 
   &__brain{
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 3em;
+    padding-bottom: 3em;
     display: flex;
     max-width: 75em;
     margin: 0 auto;
@@ -97,7 +98,7 @@
 
   &__vdo{
     max-width: 75em;
-    padding: 4em calc(100% - 75em);
+    padding: 2em calc(100% - 75em);
     display: flex;
     justify-content: space-between;
     box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, 0.08);
@@ -150,8 +151,8 @@
 
     p{
       width: 100%;
-      @include font-size($h2);
-      margin: 5em auto;
+      @include font-size($h3);
+      margin: 3em auto;
       font-weight: bold;
 
       @include breakpoint(all, down){
@@ -263,7 +264,7 @@
     color: $main-color;
     text-align: center;
     max-width: 65%;
-    margin: 5em auto;
+    margin: 3em auto;
 
     @include breakpoint(all, down){
       max-width: 90%;
@@ -322,7 +323,6 @@
             display: none;
           }
         }
-
       }
     }
 
