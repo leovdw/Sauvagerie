@@ -19,7 +19,7 @@
       <p>Découvrez la vidéo explicative de Patrick Scharnitzk docteur et manager chargé d'accompagner les entreprises sur les stéréotypes en entreprise.</p>
     </div>
     <div class="conceptions__vdo--iframe">
-      <iframe src="https://www.youtube.com/embed/s5SvQgwUmBQ" width="350" height="450" frameborder="0"></iframe>
+      <iframe src="//commons.wikimedia.org/wiki/File:Prise_de_conscience_du_handicap,_biais_et_stéréotypes.webm?embedplayer=yes" width="350" height="450" frameborder="0"></iframe>
     </div>
   </div>
   <div class="conceptions--content">
@@ -38,7 +38,7 @@
     <div class="conceptions__action--img" style="background-image : url('<?= IMAGES_URL; ?>/action.png')"></div>
     <div class="conceptions__action--content">
       <p>Vous pouvez dès à présent avoir un impact sur votre entreprise en réservant un atelier d’accompagnement pour sensibiliser vos employés sur le sujet du handicap.</p>
-      <a href="#">
+      <a href="http://sircome.fr/handicap-et-responsabilite-sociale-des-entreprises/" target="_blank">
         <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
           En savoir plus
         </button>
@@ -66,7 +66,7 @@ entreprise et faites valoir votre RSE grâce à l’embauche d’employés handi
       <div class="conceptions__articles--content">
         <p>Pôle Emploi et Cap emploi mettent en lien handicapé et entreprise </p>
       </div>
-      <a href="#">
+      <a href="http://www.pole-emploi.org/accueil/actualites/acteuremploi/une-cooperation-renforcee-entre-pole-emploi-et-les-cap-emploi-pour-mieux-accompagner-les-personnes-en-situation-de-handicap--ver.html?type=article" target="_blank">
         <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
           En savoir plus
         </button>
@@ -77,7 +77,7 @@ entreprise et faites valoir votre RSE grâce à l’embauche d’employés handi
         <p>Les acteurs de l’insertion et du maintien dans l’emploi vous accompagnent
 financièrement</p>
       </div>
-      <a href="#">
+      <a href="https://travail-emploi.gouv.fr/ministere/acteurs/partenaires/agefiph" target="_blank">
         <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
           En savoir plus
         </button>
@@ -87,7 +87,7 @@ financièrement</p>
       <div class="conceptions__articles--content">
         <p>Pinson Paysage, cette entreprise qui a réussi grâce à l’embauche de travailleurs handicapés </p>
       </div>
-      <a href="#">
+      <a href="http://www.sestidf.fr/handicap-la-reussite-de-pinson-paysage/" target="_blank">
         <button class="mdc-button mdc-button--raised mdc-ripple-upgraded">
           En savoir plus
         </button>

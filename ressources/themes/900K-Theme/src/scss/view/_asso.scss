@@ -1,6 +1,7 @@
 .asso{
   display: flex;
   flex-direction: column;
+
   &--title{
     @include font-size($h1);
     color: white;
@@ -9,6 +10,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+
+    @include breakpoint(all, down){
+      text-align: center;
+    }
 
     & > div{
       width: 85%;
@@ -25,6 +30,10 @@
     max-width: 75em;
     margin: 4em auto;
 
+    @include breakpoint(all, down){
+      max-width: 95%;
+    }
+
     p{
       @include font-size($h3);
     }
@@ -33,6 +42,10 @@
   &__strat{
     max-width: 75em;
     margin: 0 auto;
+
+    @include breakpoint(all, down){
+      max-width: 95%;
+    }
 
     h2{
       color: $main-color;
@@ -48,6 +61,12 @@
       box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.1);
       width: 25%;
       position: relative;
+
+      @include breakpoint(all, down){
+        max-width: 75%;
+        width: 100%;
+        margin-bottom: 4em;
+      }
 
       &:before{
         content: '1';
@@ -70,6 +89,10 @@
 
       &:nth-child(2):before{
         content: '2';
+
+        @include breakpoint(all, down){
+          left: 100%;
+        }
       }
       &:nth-child(3):before{
         content: '3';
@@ -79,6 +102,11 @@
       &--wraper{
         display: flex;
         justify-content: space-between;
+        align-items: center;
+
+        @include breakpoint(all, down){
+          flex-direction: column;
+        }
       }
 
       h4{
@@ -86,6 +114,10 @@
         color:  $main-color;
         margin-top: 1em;
         margin-bottom: 1em;
+
+        @include breakpoint(all, down){
+          text-align: center;
+        }
       }
     }
   }
@@ -95,6 +127,12 @@
     max-width: 75em;
     margin: 0 auto;
     margin-bottom: 5em;
+
+    @include breakpoint(all, down){
+      max-width: 95%;
+      width: 100%;
+      margin-bottom: 4em;
+    }
 
     h3{
       @include font-size($h3);
@@ -116,6 +154,10 @@
         margin-left: 1em;
         position: relative;
         padding-left: 3em;
+
+        @include breakpoint(all, down){
+          width: 55%;
+        }
 
         &:before{
           content: '';

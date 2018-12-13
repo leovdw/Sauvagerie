@@ -44,7 +44,6 @@
     <h3>Notre équipe</h3>
     <ul>
       <li><span>Présidente :</span>  Gwenaëlle Fouquet </li>
-      <li><span>Développement : Interfaces</span>   </li>
       <li><span>UX designer :</span> Florian Gouloubi, Thilini Hickaduwa  </li>
       <li><span>Attachée presse :</span>  Hannaë Boumediene </li>
       <li><span>Design graphique :</span> Lynce Lislet  </li>

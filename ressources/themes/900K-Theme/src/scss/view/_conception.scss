@@ -9,6 +9,12 @@
     background-repeat: no-repeat;
     position: relative;
 
+    @include breakpoint(all, down){
+      padding-top: 2em;
+      @include font-size($h2);
+      background-position-x: 30%;
+    }
+
     &:before{
       position: absolute;
       background-color: $main-color;
@@ -36,6 +42,10 @@
       max-width: 80%;
       margin: 0 auto;
       padding-bottom: 2em;
+
+      @include breakpoint(all, down){
+        @include font-size($h4);
+      }
     }
   }
 
@@ -47,18 +57,34 @@
     margin: 0 auto;
     justify-content: space-between;
 
+    @include breakpoint(all, down){
+      max-width: 95%;
+      flex-direction: column;
+      padding-top: 4em;
+      padding-bottom: 2em;
+    }
+
     &--img{
       background-position: center;
       background-size: contain;
       background-repeat: no-repeat;
       min-height: 15em;
       width: 48%;
+
+      @include breakpoint(all, down){
+        width: 100%;
+      }
     }
     &--content{
       width: 48%;
       display: flex;
       flex-direction: column;
       justify-content: center;
+
+      @include breakpoint(all, down){
+        width: 100%;
+      }
+
       p{
         @include font-size($h4);
       }
@@ -71,16 +97,38 @@
     display: flex;
     justify-content: space-between;
 
+    @include breakpoint(all, down){
+      max-width: 95%;
+      flex-direction: column;
+    }
+
     &--content{
       padding: 4em 0 ;
       width: 38%;
       @include font-size($h4);
+
+      @include breakpoint(all, down){
+        width: 100%;
+        flex-direction: column;
+        order: 2;
+        text-align: center;
+      }
     }
     &--iframe{
       width: 48%;
+      @include breakpoint(all, down){
+        order: 1;
+        width: 100%;
+        min-height: 20em;
+      }
+
       iframe{
         width: 100%;
         height: 100%;
+
+        @include breakpoint(all, down){
+          min-height: 20em;
+        }
       }
     }
   }
@@ -89,11 +137,19 @@
     max-width: 75em;
     margin: 0 auto;
 
+    @include breakpoint(all, down){
+      max-width: 95%;
+    }
+
     p{
       width: 100%;
       @include font-size($h2);
       margin: 5em auto;
       font-weight: bold;
+
+      @include breakpoint(all, down){
+        text-align: center;
+      }
     }
   }
 
@@ -103,12 +159,23 @@
     display: flex;
     justify-content: space-between;
 
+    @include breakpoint(all, down){
+      max-width: 95%;
+      flex-direction: column;
+    }
+
     &--img{
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
       min-height: 15em;
       width: 48%;
+
+      @include breakpoint(all, down){
+        width: 100%;
+        flex-direction: column;
+        order: 1;
+      }
     }
     &--content{
       width: 48%;
@@ -116,6 +183,11 @@
       flex-direction: column;
       justify-content: center;
       padding: 3em 0;
+
+      @include breakpoint(all, down){
+        width: 100%;
+        order: 2;
+      }
 
       h3{
         color: $main-color;
@@ -135,12 +207,22 @@
     display: flex;
     justify-content: space-between;
 
+    @include breakpoint(all, down){
+      max-width: 95%;
+      display: flex;
+      flex-direction: column;
+    }
+
     &--img{
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
       min-height: 15em;
       width: 48%;
+
+      @include breakpoint(all, down){
+        width: 100%;
+      }
     }
     &--content{
       width: 48%;
@@ -148,6 +230,10 @@
       flex-direction: column;
       justify-content: center;
       padding: 5em 0;
+
+      @include breakpoint(all, down){
+        width: 100%;
+      }
 
       h3{
         color: $main-color;
@@ -171,6 +257,10 @@
     text-align: center;
     max-width: 65%;
     margin: 5em auto;
+
+    @include breakpoint(all, down){
+      max-width: 90%;
+    }
   }
 
   &__articles{
@@ -183,12 +273,22 @@
     flex-direction: column;
     justify-content: center;
 
+    @include breakpoint(all , down){
+      width: 80%;
+    }
+
     &--wraper{
       max-width: 75em;
       margin: 0 auto;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+
+      @include breakpoint(all , down){
+        max-width: 95%;
+        flex-direction: column;
+        align-items: center;
+      }
     }
 
     &--content{
@@ -207,7 +307,5 @@
   }
   & .mdc-button{
     background-color: $main-color;
-
-
   }
 }
