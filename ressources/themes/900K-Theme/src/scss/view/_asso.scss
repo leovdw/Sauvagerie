@@ -3,7 +3,6 @@
   flex-direction: column;
 
   &--title{
-    @include font-size($h1);
     color: white;
     padding-top: 4em;
     background-position: center;
@@ -23,6 +22,10 @@
       width: 85%;
       margin: 0 auto;
 
+      @include breakpoint(small, down){
+        width: 90%;
+      }
+
       span{
         color: $main-color;
       }
@@ -30,7 +33,12 @@
 
     h1{
       position: relative;
+      @include font-size($h1);
       padding-bottom: 2em;
+
+      @include breakpoint(small, down){
+        @include font-size($h2);
+      }
     }
   }
 
